@@ -14,7 +14,8 @@ def take_a_number(array, name)
   array << name
   puts "Welcome, #{name}. You are number #{array.size} in line."
 end
-now_serving(["Jen", "Joe"])
+
+now_serving(array)
 def now_serving(array)
   if array.empty?
     puts "There is nobody waiting to be served!"
